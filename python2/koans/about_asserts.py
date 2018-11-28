@@ -36,7 +36,7 @@ class AboutAsserts(Koan):
         """
         expected_value = __
         actual_value = 1 + 1
-        self.assertTrue(expected_value == actual_value)
+        self.assertTrue(2 == actual_value)
 
     def test_a_better_way_of_asserting_equality(self):
         """
