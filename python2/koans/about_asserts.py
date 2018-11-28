@@ -45,7 +45,7 @@ class AboutAsserts(Koan):
         expected_value = __
         actual_value = 1 + 1
 
-        self.assertEqual(expected_value, actual_value)
+        self.assertEqual(2, actual_value)
 
     def test_that_unittest_asserts_work_the_same_way_as_python_asserts(self):
         """
